@@ -1,0 +1,1 @@
+Write a program to input user's first & print its length.
