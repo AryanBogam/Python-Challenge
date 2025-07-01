@@ -6,8 +6,6 @@ Welcome to my **Python Daily Challenge** – a disciplined journey of solving Py
 
 ## 🎯 Why This Challenge?
 
-> "Stay asleep, follow the crowd, and wake up at 40 in regret. Or go all in now and build something so massive your parents forget they ever doubted you."
-
 I chose this challenge to:
 - Master Python by solving real-world logic problems
 - Build a solid GitHub profile through daily commits
