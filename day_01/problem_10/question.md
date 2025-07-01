@@ -1,0 +1,1 @@
+Take the user name as the input and say good afternoon while using f-string.
