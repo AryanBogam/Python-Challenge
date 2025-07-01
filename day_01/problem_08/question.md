@@ -1,0 +1,1 @@
+Take a input of a user and replace the double space "  " with the single space " ".
