@@ -1,0 +1,1 @@
+Taking input of a sentence and find the first occurence of double spaces " ".
