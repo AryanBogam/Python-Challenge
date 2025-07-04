@@ -9,8 +9,8 @@ Determine:
 1 Which requests should be accepted? 
 2 Which should be blocked? 
 3 Which are unknown (not in allowed or blocked)?
-Expected Logic:
 
+Expected Logic:
 Use intersection and difference operations
 Handle overlapping conditions
 Think about security logic
