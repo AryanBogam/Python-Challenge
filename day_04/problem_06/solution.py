@@ -12,3 +12,7 @@ only_one_course = python_students ^ ai_students
 # Students who completed none
 completed_any = python_students | ai_students  
 none_completed = all_students - completed_any
+
+print("Completed both Python & AI:", both_courses)
+print("Completed only one course:", only_one_course)
+print("Completed none:", none_completed)

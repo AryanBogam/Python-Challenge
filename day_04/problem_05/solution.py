@@ -12,3 +12,7 @@ new_emails = all_leads - crm_emails
 
 # Already in CRM 
 already_in_crm = all_leads & crm_emails         
+
+print("Duplicates across platforms:", duplicates)
+print("New emails to add to CRM:", new_emails)
+print("Already in CRM:", already_in_crm)

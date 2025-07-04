@@ -12,3 +12,7 @@ denied_access = attempted_entry - active_employees
 
 # 3. People who are not even employees 
 unauthorized = attempted_entry - employees_with_access
+
+print("Granted Access:", granted_access)
+print("Denied Access:", denied_access)
+print("Unauthorized Entries:", unauthorized)

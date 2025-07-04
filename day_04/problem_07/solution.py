@@ -12,3 +12,7 @@ fraudulent_txns = incoming_txns & reported_fraud
 # Incoming not in verified and not in fraud
 known_txns = verified_txns | reported_fraud
 suspicious_txns = incoming_txns - known_txns
+
+print("Clean Transactions:", clean_txns)
+print("Flagged as Fraud:", fraudulent_txns)
+print("Suspicious / Unknown Transactions:", suspicious_txns)
