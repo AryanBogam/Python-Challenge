@@ -1,0 +1,1 @@
+Q6. Check If Two Strings Are Isomorphic
