@@ -1,0 +1,1 @@
+ Q2. Rotate List Right by K Steps
