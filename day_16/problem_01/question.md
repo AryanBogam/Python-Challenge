@@ -1,0 +1,2 @@
+Q1.Search Autocomplete Logic (Google Search)
+Write a function that takes a user’s partial input ("mach") and returns autocomplete suggestions from a list like ["machine learning", "machinery", "macro"]
