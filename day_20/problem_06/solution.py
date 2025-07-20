@@ -1,11 +1,12 @@
-def airpods_troubleshooter(connected, battery, error):
-    if not connected:
-        return "Reconnect via Bluetooth settings."
-    if battery < 10:
-        return "Charge your AirPods."
-    if error:
-        return "Reset AirPods and try again."
-    return "AirPods are working fine."
+def airdrop_nearby_devices(devices):
+    nearby = [d for d in devices if d['distance'] <= 10]
+    sorted_nearby = sorted(nearby, key=lambda x: x['signal_strength'], reverse=True)
+    return sorted_nearby
 
-# Example call
-print(airpods_troubleshooter(connected=False, battery=80, error=False))
+devices = [
+    {"name": "iPhone 13", "distance": 5, "signal_strength": 70},
+    {"name": "MacBook", "distance": 12, "signal_strength": 80},
+    {"name": "iPad", "distance": 8, "signal_strength": 65}
+]
+
+print(airdrop_nearby_devices(devices))
