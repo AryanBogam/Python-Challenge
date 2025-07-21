@@ -1,9 +1,9 @@
-traffic = {
-    "north": 30,
-    "south": 80,
-    "east": 40,
-    "west": 25
-}
+def congestion_analyzer(roads):
+    result = []
+    for road in roads:
+        status = "congested" if road["avg_speed"] < 20 else "clear"
+        result.append({"name": road["name"], "status": status})
+    return result
 
-max_dir = max(traffic, key=traffic.get)
-print(f"Allow traffic from {max_dir} first")
+roads = [{"name": "MG Road", "avg_speed": 12}, {"name": "FC Road", "avg_speed": 35}]
+print(congestion_analyzer(roads))
