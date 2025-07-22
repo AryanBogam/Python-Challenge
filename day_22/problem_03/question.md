@@ -13,4 +13,4 @@ EK303
 AI101
 BA205
 
- Hint: Sort list manually based on priority without using sort().
+Hint: Sort list manually based on priority without using sort().
