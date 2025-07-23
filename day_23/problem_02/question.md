@@ -1,4 +1,4 @@
-Immutable Month Planner
+Q2.Immutable Month Planner
 Task:
 Store a tuple of 12 months with the number of days. Example:
 months = (("Jan", 31), ("Feb", 28), ..., ("Dec", 31))

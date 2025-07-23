@@ -1,4 +1,4 @@
-Question 4: Network Security Challenge
+Q5. Network Security Challenge
 Question: You have three sets of IP addresses:
 
 Allowed IPs: {"192.168.1.10", "192.168.1.20", "10.0.0.5"}

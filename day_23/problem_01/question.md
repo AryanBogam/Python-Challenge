@@ -1,4 +1,4 @@
-Student Score Tracker – Immutable Logs
+Q1.Student Score Tracker – Immutable Logs
 Task:
 Create a tuple with students' names and their marks:
 Example:

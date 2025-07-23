@@ -1,4 +1,4 @@
-Question 2: Common Interests Finder
+Q4. Common Interests Finder
 Question: Three friends have different hobbies:
 
 Alice: {"reading", "swimming", "coding", "music"}

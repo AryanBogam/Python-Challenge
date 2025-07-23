@@ -1,4 +1,4 @@
-Q3. Student Pass/Fail Report
+Q7. Student Pass/Fail Report
 Given a dictionary of students and their total score, print whether they passed (score ≥ 40) or failed.
 scores = {
     "Aryan": 89,
