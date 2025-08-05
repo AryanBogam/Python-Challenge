@@ -8,4 +8,4 @@ Input:
 "This video is a scam!"
 
 Output:
-Blocked
+Blocked 
