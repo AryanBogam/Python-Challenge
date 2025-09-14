@@ -6,3 +6,5 @@ menu = {
     "Salad": 70,
     "Coffee": 80,
 }
+
+order_total = 0
