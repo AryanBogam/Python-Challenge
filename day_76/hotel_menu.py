@@ -19,3 +19,7 @@ item_1 = input("Enter the name of item you want to order = ")
 if item_1 in menu:
     order_total += menu[item_1]
     print(f"Your item {item_1} has been added to your order")
+else:
+    print(f"Ordered item {item_1} is not avaiable yet!")
+
+another_order = input("Do you want to add another item? (Yes/No)")
