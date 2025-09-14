@@ -16,3 +16,6 @@ print("Pizza: Rs40\nPasta: Rs60\nBurger: Rs60\nSalad: Rs70\nCoffe: Rs80")
 order_total = 0
 
 item_1 = input("Enter the name of item you want to order = ")
+if item_1 in menu:
+    order_total += menu[item_1]
+    print(f"Your item {item_1} has been added to your order")
