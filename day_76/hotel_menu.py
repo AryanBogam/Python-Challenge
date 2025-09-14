@@ -28,3 +28,5 @@ if another_order == "Yes" or "yes":
     if item_2 in menu:
         order_total += menu[item_1]
         print(f"Your item {item_2} has been added to your order")
+    else:
+        print(f"Ordered item {item_1} is not avaiable yet!")
