@@ -7,4 +7,11 @@ menu = {
     "Coffee": 80,
 }
 
+#Greet
+print("\n")
+print("Welcome to Python Restuart")
+print("--------------------------")
+print("Pizza: Rs40\nPasta: Rs60\nBurger: Rs60\nSalad: Rs70\nCoffe: Rs80")
+
 order_total = 0
+
