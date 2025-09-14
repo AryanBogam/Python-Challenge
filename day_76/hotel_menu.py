@@ -27,3 +27,4 @@ if another_order == "Yes" or "yes":
     item_2 = input("Enter the name of item you want to order = ")
     if item_2 in menu:
         order_total += menu[item_1]
+        print(f"Your item {item_2} has been added to your order")
