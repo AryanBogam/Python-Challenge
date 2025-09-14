@@ -15,3 +15,4 @@ print("Pizza: Rs40\nPasta: Rs60\nBurger: Rs60\nSalad: Rs70\nCoffe: Rs80")
 
 order_total = 0
 
+item_1 = input("Enter the name of item you want to order = ")
