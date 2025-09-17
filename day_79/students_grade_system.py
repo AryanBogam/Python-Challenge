@@ -63,3 +63,43 @@ def main():
 
         # Get user's choice
         choice = int(input("enter your choice = "))
+
+        # Add student option
+        if choice == 1:
+            # Get student name from user
+            name = input("Enter student name = ")
+            # Get student grade from user
+            grade = int(input("Enter student grade = "))
+            # Call add_student function
+            add_student(name,grade)
+
+        # Update student option
+        elif choice == 2:
+            # Get student name to update
+            name = input("Enter student name = ")
+            # Get new grade
+            grade = int(input("Enter student grade = "))
+            # Call update_student function
+            update_student(name, grade)
+
+        # Delete student option
+        elif choice == 3:
+            # Get student name to delete
+            name = input("Enter student name = ")
+            # Call delete_student function
+            delete_student(name)
+
+        # View all students option
+        elif choice == 4:
+            # Call display_all_students function
+            display_all_students()
+
+        # Exit option
+        elif choice == 5:
+            # Print exit message and break loop
+            print("Closing the program...")
+            break
+        
+        # Handle invalid choices
+        else:
+            print("Invalid choice, Select between 1 to 5")
