@@ -103,3 +103,6 @@ def main():
         # Handle invalid choices
         else:
             print("Invalid choice, Select between 1 to 5")
+
+# Run the main function
+main()
