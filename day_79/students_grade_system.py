@@ -11,6 +11,19 @@ def add_student(name, grade):
     print(f"Added {name} with a {grade}")
     # Added sagar with a 100
 
+# Function to update a student's grade
+def update_student(name, grade):
+    # Check if student exists in dictionary
+    if name in student_grades:
+        # Update the student's grade
+        student_grades[name] = grade
+        #Sagar = 200
+        # Print update confirmation
+        print(f"{name} with marks are updated {grade}")
+    else:
+        # Print error if student not found
+        print(f"{name} is not found!")
+
 
 # Function to view all students and their grades
 def display_all_students():
