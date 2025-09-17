@@ -24,6 +24,18 @@ def update_student(name, grade):
         # Print error if student not found
         print(f"{name} is not found!")
 
+# Function to delete a student
+def delete_student(name):
+    # Check if student exists in dictionary
+    if name in student_grades:
+        # Remove student from dictionary
+        del student_grades[name]
+        # Print deletion confirmation
+        print(f"{name} has been successfully deleted")
+    else:
+        # Print error if student not found
+        print(f"{name} is not found!")
+
 
 # Function to view all students and their grades
 def display_all_students():
