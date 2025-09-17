@@ -48,3 +48,18 @@ def display_all_students():
     else:
         # Print message if no students found
         print("No students found/Added")
+
+# Main function to run the program
+def main():
+    # Start infinite loop for menu
+    while True:
+        # Display menu options
+        print("\n Student Grades Management System")
+        print("1. Add student")
+        print("2. Update Student")
+        print("3. Delete Student")
+        print("4. View Student")
+        print("5. Exit")
+
+        # Get user's choice
+        choice = int(input("enter your choice = "))
