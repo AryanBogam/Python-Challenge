@@ -15,3 +15,19 @@ while True:
 
     # Get user's choice
     choice = input("Enter your choice: ")
+
+    # Create new contact
+    if choice == "1":
+        # Get contact name from user
+        name = input("Enter your name = ")
+        # Check if contact already exists
+        if name in contacts:
+            print(f"Contact name {name} already exists! ")
+        else:
+            # Get contact details
+            age = input("Enter age = ")
+            email = input("Enter email = ")
+            mobile = input("Enter mobile number = ")
+            # Store contact in dictionary with nested dictionary structure
+            contacts[name] = {"age": int(age), "Email": email, "mobile":mobile}
+            print(f"Contact name has been successfully!")
