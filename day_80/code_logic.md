@@ -119,4 +119,4 @@ Process Choice → Back to Menu → Repeat Until Exit
 6. Search + Count (more complex)
 7. Exit + Error handling
 
-**Remember:** Build one feature at a time, test it, then move to next!
+**Remember:** Build one feature at a time, test it, then move to next! 
