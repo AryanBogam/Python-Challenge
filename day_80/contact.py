@@ -31,3 +31,16 @@ while True:
             # Store contact in dictionary with nested dictionary structure
             contacts[name] = {"age": int(age), "Email": email, "mobile":mobile}
             print(f"Contact name has been successfully!")
+
+    # View existing contact
+    elif choice == "2":
+        # Get contact name to view
+        name = input("Enter Contact name to view = ")
+        # Check if contact exists
+        if name in contacts:
+            # Get contact details from dictionary
+            contact = contacts[name]
+            # Display contact information
+            print(f"Name:{name}, \nAge:{age}, \nMobile Number:{mobile}")
+        else:
+            print("Contact not found!")
