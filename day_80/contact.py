@@ -94,3 +94,13 @@ while True:
     elif choice == "6":
         # Display total number of contacts
         print(f"Total contacts in your book: {len(contacts)}")
+
+    # Exit program
+    elif choice == "7":
+        print("Good bye...Closing the program")
+        # Break out of while loop
+        break
+    
+    # Handle invalid choices
+    else:
+        print("Invalid Input")
