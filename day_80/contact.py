@@ -59,3 +59,15 @@ while True:
             contacts[name] = {"age": int(age), "Email": email, "mobile":mobile}
         else:
             print("Contact not found!")
+
+    # Delete contact
+    elif choice == "4":
+        # Get contact name to delete
+        name = input("Enter contact name to delete = ")
+        # Check if contact exists
+        if name in contacts:
+            # Remove contact from dictionary
+            del contacts[name]
+            print(f"Contact name {name} has been deleted successfully")
+        else:
+            print("Contact not found!")
