@@ -44,3 +44,18 @@ while True:
             print(f"Name:{name}, \nAge:{age}, \nMobile Number:{mobile}")
         else:
             print("Contact not found!")
+
+    # Update existing contact
+    elif choice == "3":
+        # Get contact name to update
+        name = input("Enter name to update contact = ")
+        # Check if contact exists
+        if name in contacts:
+            # Get new contact details
+            age = input("Enter age = ")
+            email = input("Enter email = ")
+            mobile = input("Enter mobile number = ")
+            # Update contact with new information
+            contacts[name] = {"age": int(age), "Email": email, "mobile":mobile}
+        else:
+            print("Contact not found!")
