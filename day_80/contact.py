@@ -71,3 +71,26 @@ while True:
             print(f"Contact name {name} has been deleted successfully")
         else:
             print("Contact not found!")
+
+    # Search for contact
+    elif choice == "5":
+        # Get search term from user
+        search_name = input("Enter contact name to search = ")
+        # Initialize found flag
+        found = False
+        # Loop through all contacts
+        for name, contact in contacts.items():
+            # Check if search term matches contact name (case insensitive)
+            if search_name.lower() in name.lower():
+                # Display matching contact
+                print(f"Found - Name {name}, Age: {age}, Mobile Number: {mobile}, Email:{email}")
+                # Set found flag to True
+                found = True
+        # If no contact found
+        if not found:
+            print("No contact found with that name")
+
+    # Count total contacts
+    elif choice == "6":
+        # Display total number of contacts
+        print(f"Total contacts in your book: {len(contacts)}")
